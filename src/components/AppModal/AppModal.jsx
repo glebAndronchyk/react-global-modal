@@ -8,7 +8,7 @@ const AppModal = observer(() => {
   const { close, isOpened, renderComponent, configuration } = appModalStore;
 
   const backdropClose = (event, reason) => {
-    return reason === "backdropClick" ? close() : null;
+    return reason === "backdropClick" && close();
   };
 
   return (
