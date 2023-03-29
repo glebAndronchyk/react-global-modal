@@ -6,6 +6,7 @@ const SomePageData = () => {
   const { open } = appModalStore;
 
   const openModal = () => {
+    // CONFIGURATION CAN BE CONST
     open({ component: <div>COMPONENT</div>, configuration: "TEST" });
   };
 
