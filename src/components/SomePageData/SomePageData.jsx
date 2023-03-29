@@ -6,7 +6,7 @@ const SomePageData = () => {
   const { open } = appModalStore;
 
   const openModal = () => {
-    open({ component: <div>test</div>, configuration: "test" });
+    open({ component: <div>COMPONENT</div>, configuration: "TEST" });
   };
 
   return (
